@@ -1,0 +1,19 @@
+[
+  {"from": "python_programming", "to": "ml_basics", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "probability_statistics", "to": "ml_basics", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "linear_algebra", "to": "ml_basics", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "ml_basics", "to": "linear_regression", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "ml_basics", "to": "gradient_descent", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "calculus", "to": "gradient_descent", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "linear_regression", "to": "logistic_regression", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "gradient_descent", "to": "neural_networks", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "logistic_regression", "to": "neural_networks", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "neural_networks", "to": "backpropagation", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "neural_networks", "to": "cnn", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "backpropagation", "to": "rnn", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "neural_networks", "to": "word_embeddings", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "rnn", "to": "attention_mechanism", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "word_embeddings", "to": "attention_mechanism", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "attention_mechanism", "to": "transformers", "confidence": 1.0, "sources": ["manual"]},
+  {"from": "transformers", "to": "llm", "confidence": 1.0, "sources": ["manual"]}
+]

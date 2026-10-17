@@ -1,0 +1,144 @@
+# Math and programming foundations
+linear algebra
+vectors and matrices
+eigenvalues and eigenvectors
+singular value decomposition
+calculus
+partial derivatives
+chain rule
+gradients
+probability
+random variables and distributions
+Bayes theorem
+expectation and variance
+maximum likelihood estimation
+information theory
+convex optimization basics
+python programming
+numpy
+data structures and algorithms
+
+# Classical machine learning
+machine learning basics
+supervised learning
+unsupervised learning
+loss functions
+train test split
+cross validation
+bias variance tradeoff
+overfitting and regularization
+linear regression
+logistic regression
+gradient descent
+naive bayes
+k nearest neighbors
+decision trees
+random forests
+gradient boosting
+support vector machines
+kernel methods
+k means clustering
+hierarchical clustering
+principal component analysis
+dimensionality reduction
+gaussian mixture models
+expectation maximization
+evaluation metrics
+feature engineering
+
+# Deep learning core
+perceptron
+neural networks
+activation functions
+backpropagation
+stochastic gradient descent
+momentum and adam
+learning rate schedules
+weight initialization
+batch normalization
+dropout
+autoencoders
+convolutional neural networks
+pooling
+residual networks
+recurrent neural networks
+lstm and gru
+sequence to sequence models
+pytorch
+hyperparameter tuning
+transfer learning
+
+# Computer vision
+image representation
+image classification
+object detection
+image segmentation
+data augmentation
+cnn architectures
+vision transformers
+variational autoencoders
+generative adversarial networks
+diffusion models
+self supervised learning
+
+# NLP and LLMs
+tokenization
+bag of words and tf-idf
+word embeddings
+language modeling
+attention mechanism
+self attention
+positional encoding
+transformers
+bert style encoders
+gpt style decoders
+pretraining and fine tuning
+large language models
+scaling laws
+prompt engineering
+instruction tuning
+rlhf
+retrieval augmented generation
+vector databases
+lora and parameter efficient fine tuning
+quantization
+llm evaluation
+hallucination
+tool use
+ai agents
+
+# Reinforcement learning
+markov decision processes
+rewards and returns
+value functions
+bellman equation
+dynamic programming
+monte carlo methods
+temporal difference learning
+q learning
+deep q networks
+policy gradients
+actor critic
+ppo
+
+# Graphs and other areas
+graph theory basics
+graph embeddings
+message passing
+graph neural networks
+knowledge graphs
+collaborative filtering
+recommender systems
+anomaly detection
+
+# MLOps and responsible AI
+data pipelines
+experiment tracking
+model deployment
+model monitoring
+mlops
+interpretability
+explainable ai
+fairness and bias
+privacy
+ai safety

@@ -1,0 +1,18 @@
+[
+  {"id": "linear_algebra", "name": "Linear Algebra", "description": "Vectors, matrices, and linear transformations.", "level": "topic", "aliases": []},
+  {"id": "calculus", "name": "Calculus", "description": "Derivatives, gradients, and the chain rule.", "level": "topic", "aliases": ["differentiation"]},
+  {"id": "probability_statistics", "name": "Probability and Statistics", "description": "Distributions, expectation, and inference.", "level": "topic", "aliases": ["probability", "statistics"]},
+  {"id": "python_programming", "name": "Python Programming", "description": "Core Python and numerical libraries like NumPy.", "level": "skill", "aliases": ["python"]},
+  {"id": "ml_basics", "name": "Machine Learning Basics", "description": "Supervised learning, training vs test data, loss functions.", "level": "topic", "aliases": ["machine learning"]},
+  {"id": "linear_regression", "name": "Linear Regression", "description": "Fitting a linear model to predict a continuous value.", "level": "concept", "aliases": []},
+  {"id": "gradient_descent", "name": "Gradient Descent", "description": "Iteratively minimizing a loss by following its gradient.", "level": "concept", "aliases": ["SGD"]},
+  {"id": "logistic_regression", "name": "Logistic Regression", "description": "Linear model with a sigmoid output for classification.", "level": "concept", "aliases": []},
+  {"id": "neural_networks", "name": "Neural Networks", "description": "Layers of weighted units with nonlinear activations.", "level": "topic", "aliases": ["deep learning basics", "MLP"]},
+  {"id": "backpropagation", "name": "Backpropagation", "description": "Computing gradients through a network via the chain rule.", "level": "concept", "aliases": ["backprop"]},
+  {"id": "cnn", "name": "Convolutional Neural Networks", "description": "Networks using convolutions for image-like data.", "level": "concept", "aliases": ["CNN", "convnet"]},
+  {"id": "rnn", "name": "Recurrent Neural Networks", "description": "Networks that process sequences with a hidden state.", "level": "concept", "aliases": ["RNN", "LSTM"]},
+  {"id": "word_embeddings", "name": "Word Embeddings", "description": "Dense vector representations of words or tokens.", "level": "concept", "aliases": ["embeddings", "word2vec"]},
+  {"id": "attention_mechanism", "name": "Attention Mechanism", "description": "Weighting parts of the input by relevance to a query.", "level": "concept", "aliases": ["attention"]},
+  {"id": "transformers", "name": "Transformers", "description": "Architecture built on self-attention instead of recurrence.", "level": "topic", "aliases": ["transformer architecture"]},
+  {"id": "llm", "name": "Large Language Models", "description": "Transformers trained at scale on text for generation.", "level": "topic", "aliases": ["LLM", "GPT"]}
+]
