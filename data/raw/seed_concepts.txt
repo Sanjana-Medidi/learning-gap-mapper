@@ -142,3 +142,17 @@ explainable ai
 fairness and bias
 privacy
 ai safety
+normal equations
+generalized linear models
+gaussian discriminant analysis
+variational inference
+exponential_family
+laplace_smoothing
+bayesian_linear_regression
+gaussian_processes
+empirical_risk_minimization
+uniform_convergence
+factor_analysis
+independent_components_analysis
+maximum_entropy
+calibration

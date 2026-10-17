@@ -1,0 +1,330 @@
+[
+  {
+    "from": "supervised_learning",
+    "to": "linear_regression",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L3 setting of supervised learning precedes L4 linear regression",
+    "verified": false
+  },
+  {
+    "from": "linear_regression",
+    "to": "logistic_regression",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L4 linear regression, then L5 logistic regression",
+    "verified": false
+  },
+  {
+    "from": "linear_regression",
+    "to": "normal_equations",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L4 normal equations solve the least-squares problem",
+    "verified": false
+  },
+  {
+    "from": "gradients",
+    "to": "gradient_descent",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L2 matrix calculus review precedes L4 gradient descent",
+    "verified": false
+  },
+  {
+    "from": "loss_functions",
+    "to": "gradient_descent",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L4 gradient descent minimizes the least-squares loss",
+    "verified": false
+  },
+  {
+    "from": "gradient_descent",
+    "to": "stochastic_gradient_descent",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L4 SGD introduced as a variant of GD",
+    "verified": false
+  },
+  {
+    "from": "probability",
+    "to": "maximum_likelihood_estimation",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L2-L3 probability review precedes L4 MLE",
+    "verified": false
+  },
+  {
+    "from": "maximum_likelihood_estimation",
+    "to": "logistic_regression",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L4 MLE, then L5 logistic regression fit by likelihood",
+    "verified": false
+  },
+  {
+    "from": "bayes_theorem",
+    "to": "naive_bayes",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L7 naive Bayes classifier applies Bayes' rule",
+    "verified": false
+  },
+  {
+    "from": "logistic_regression",
+    "to": "generalized_linear_models",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L5 logistic regression, then L6 GLMs generalize it",
+    "verified": false
+  },
+  {
+    "from": "logistic_regression",
+    "to": "neural_networks",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L5 logistic regression, then L10 neural networks (a neuron is a logistic unit)",
+    "verified": false
+  },
+  {
+    "from": "neural_networks",
+    "to": "backpropagation",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L10 backpropagation as the training algorithm for networks",
+    "verified": false
+  },
+  {
+    "from": "k_means_clustering",
+    "to": "gaussian_mixture_models",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L16 k-means, then mixture of Gaussians",
+    "verified": false
+  },
+  {
+    "from": "gaussian_mixture_models",
+    "to": "expectation_maximization",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L16 EM is motivated by fitting a GMM",
+    "verified": false
+  },
+  {
+    "from": "linear_algebra",
+    "to": "eigenvalues_and_eigenvectors",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L1 linear algebra review",
+    "verified": false
+  },
+  {
+    "from": "eigenvalues_and_eigenvectors",
+    "to": "principal_component_analysis",
+    "label": 1,
+    "split": "dev",
+    "source": "CS229 Summer 2019: L18 PCA relies on eigendecomposition",
+    "verified": false
+  },
+  {
+    "from": "expectation_maximization",
+    "to": "variational_inference",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L16 EM, then L20 variational inference and EM variants",
+    "verified": false
+  },
+  {
+    "from": "variational_inference",
+    "to": "variational_autoencoders",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L20 VAE follows variational inference",
+    "verified": false
+  },
+  {
+    "from": "markov_decision_processes",
+    "to": "value_functions",
+    "label": 1,
+    "split": "test",
+    "source": "CS229 Summer 2019: L14 MDPs, then value and policy iteration",
+    "verified": false
+  },
+  {
+    "from": "linear_regression",
+    "to": "supervised_learning",
+    "label": 0,
+    "split": "dev",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "logistic_regression",
+    "to": "linear_regression",
+    "label": 0,
+    "split": "test",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "stochastic_gradient_descent",
+    "to": "gradient_descent",
+    "label": 0,
+    "split": "test",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "maximum_likelihood_estimation",
+    "to": "probability",
+    "label": 0,
+    "split": "test",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "gaussian_mixture_models",
+    "to": "k_means_clustering",
+    "label": 0,
+    "split": "test",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "expectation_maximization",
+    "to": "gaussian_mixture_models",
+    "label": 0,
+    "split": "dev",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "principal_component_analysis",
+    "to": "eigenvalues_and_eigenvectors",
+    "label": 0,
+    "split": "dev",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "neural_networks",
+    "to": "logistic_regression",
+    "label": 0,
+    "split": "test",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "gradient_descent",
+    "to": "gradients",
+    "label": 0,
+    "split": "dev",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "backpropagation",
+    "to": "neural_networks",
+    "label": 0,
+    "split": "test",
+    "source": "reversed",
+    "verified": false
+  },
+  {
+    "from": "perceptron",
+    "to": "logistic_regression",
+    "label": 0,
+    "split": "dev",
+    "source": "sibling: CS229 Summer 2019 L5 teaches both side by side, neither requires the other",
+    "verified": false
+  },
+  {
+    "from": "naive_bayes",
+    "to": "gaussian_discriminant_analysis",
+    "label": 0,
+    "split": "dev",
+    "source": "sibling: both generative classifiers (CS229 Summer 2019 L7)",
+    "verified": false
+  },
+  {
+    "from": "gaussian_discriminant_analysis",
+    "to": "naive_bayes",
+    "label": 0,
+    "split": "dev",
+    "source": "sibling: both generative classifiers (CS229 Summer 2019 L7)",
+    "verified": false
+  },
+  {
+    "from": "normal_equations",
+    "to": "gradient_descent",
+    "label": 0,
+    "split": "test",
+    "source": "sibling: alternative ways to solve least squares (CS229 Summer 2019 L4)",
+    "verified": false
+  },
+  {
+    "from": "k_means_clustering",
+    "to": "principal_component_analysis",
+    "label": 0,
+    "split": "test",
+    "source": "sibling: both unsupervised, no dependency (CS229 Summer 2019 L16, L18)",
+    "verified": false
+  },
+  {
+    "from": "support_vector_machines",
+    "to": "naive_bayes",
+    "label": 0,
+    "split": "dev",
+    "source": "unrelated: different model families",
+    "verified": false
+  },
+  {
+    "from": "naive_bayes",
+    "to": "value_functions",
+    "label": 0,
+    "split": "test",
+    "source": "unrelated: classification vs reinforcement learning",
+    "verified": false
+  },
+  {
+    "from": "kernel_methods",
+    "to": "markov_decision_processes",
+    "label": 0,
+    "split": "test",
+    "source": "unrelated: kernels vs reinforcement learning",
+    "verified": false
+  },
+  {
+    "from": "probability",
+    "to": "naive_bayes",
+    "label": 0,
+    "split": "test",
+    "source": "indirect: bayes_theorem sits between them",
+    "verified": false
+  },
+  {
+    "from": "supervised_learning",
+    "to": "logistic_regression",
+    "label": 0,
+    "split": "dev",
+    "source": "indirect: linear_regression sits between them",
+    "verified": false
+  },
+  {
+    "from": "linear_algebra",
+    "to": "principal_component_analysis",
+    "label": 0,
+    "split": "dev",
+    "source": "indirect: eigenvalues_and_eigenvectors sits between them",
+    "verified": false
+  },
+  {
+    "from": "linear_regression",
+    "to": "neural_networks",
+    "label": 0,
+    "split": "test",
+    "source": "indirect: logistic_regression sits between them",
+    "verified": false
+  }
+]
