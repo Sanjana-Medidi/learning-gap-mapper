@@ -5,7 +5,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L3 setting of supervised learning precedes L4 linear regression",
-    "verified": false
+    "verified": true
   },
   {
     "from": "linear_regression",
@@ -13,7 +13,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L4 linear regression, then L5 logistic regression",
-    "verified": false
+    "verified": true
   },
   {
     "from": "linear_regression",
@@ -21,7 +21,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L4 normal equations solve the least-squares problem",
-    "verified": false
+    "verified": true
   },
   {
     "from": "gradients",
@@ -29,7 +29,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L2 matrix calculus review precedes L4 gradient descent",
-    "verified": false
+    "verified": true
   },
   {
     "from": "loss_functions",
@@ -37,7 +37,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L4 gradient descent minimizes the least-squares loss",
-    "verified": false
+    "verified": true
   },
   {
     "from": "gradient_descent",
@@ -45,15 +45,15 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L4 SGD introduced as a variant of GD",
-    "verified": false
+    "verified": true
   },
   {
     "from": "probability",
     "to": "maximum_likelihood_estimation",
-    "label": 1,
+    "label": 0,
     "split": "test",
-    "source": "CS229 Summer 2019: L2-L3 probability review precedes L4 MLE",
-    "verified": false
+    "source": "indirect: random_variables_and_distributions sits between them",
+    "verified": true
   },
   {
     "from": "maximum_likelihood_estimation",
@@ -61,7 +61,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L4 MLE, then L5 logistic regression fit by likelihood",
-    "verified": false
+    "verified": true
   },
   {
     "from": "bayes_theorem",
@@ -69,7 +69,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L7 naive Bayes classifier applies Bayes' rule",
-    "verified": false
+    "verified": true
   },
   {
     "from": "logistic_regression",
@@ -77,7 +77,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L5 logistic regression, then L6 GLMs generalize it",
-    "verified": false
+    "verified": true
   },
   {
     "from": "logistic_regression",
@@ -85,7 +85,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L5 logistic regression, then L10 neural networks (a neuron is a logistic unit)",
-    "verified": false
+    "verified": true
   },
   {
     "from": "neural_networks",
@@ -93,15 +93,15 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L10 backpropagation as the training algorithm for networks",
-    "verified": false
+    "verified": true
   },
   {
     "from": "k_means_clustering",
     "to": "gaussian_mixture_models",
-    "label": 1,
+    "label": 0,
     "split": "test",
-    "source": "CS229 Summer 2019: L16 k-means, then mixture of Gaussians",
-    "verified": false
+    "source": "related, not required: CS229 defines GMM from scratch and only compares it to k-means afterward",
+    "verified": true
   },
   {
     "from": "gaussian_mixture_models",
@@ -109,7 +109,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L16 EM is motivated by fitting a GMM",
-    "verified": false
+    "verified": true
   },
   {
     "from": "linear_algebra",
@@ -117,7 +117,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L1 linear algebra review",
-    "verified": false
+    "verified": true
   },
   {
     "from": "eigenvalues_and_eigenvectors",
@@ -125,7 +125,7 @@
     "label": 1,
     "split": "dev",
     "source": "CS229 Summer 2019: L18 PCA relies on eigendecomposition",
-    "verified": false
+    "verified": true
   },
   {
     "from": "expectation_maximization",
@@ -133,7 +133,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L16 EM, then L20 variational inference and EM variants",
-    "verified": false
+    "verified": true
   },
   {
     "from": "variational_inference",
@@ -141,7 +141,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L20 VAE follows variational inference",
-    "verified": false
+    "verified": true
   },
   {
     "from": "markov_decision_processes",
@@ -149,7 +149,7 @@
     "label": 1,
     "split": "test",
     "source": "CS229 Summer 2019: L14 MDPs, then value and policy iteration",
-    "verified": false
+    "verified": true
   },
   {
     "from": "linear_regression",
@@ -157,7 +157,7 @@
     "label": 0,
     "split": "dev",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "logistic_regression",
@@ -165,7 +165,7 @@
     "label": 0,
     "split": "test",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "stochastic_gradient_descent",
@@ -173,7 +173,7 @@
     "label": 0,
     "split": "test",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "maximum_likelihood_estimation",
@@ -181,7 +181,7 @@
     "label": 0,
     "split": "test",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "gaussian_mixture_models",
@@ -189,7 +189,7 @@
     "label": 0,
     "split": "test",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "expectation_maximization",
@@ -197,7 +197,7 @@
     "label": 0,
     "split": "dev",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "principal_component_analysis",
@@ -205,7 +205,7 @@
     "label": 0,
     "split": "dev",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "neural_networks",
@@ -213,7 +213,7 @@
     "label": 0,
     "split": "test",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "gradient_descent",
@@ -221,7 +221,7 @@
     "label": 0,
     "split": "dev",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "backpropagation",
@@ -229,15 +229,15 @@
     "label": 0,
     "split": "test",
     "source": "reversed",
-    "verified": false
+    "verified": true
   },
   {
     "from": "perceptron",
     "to": "logistic_regression",
     "label": 0,
     "split": "dev",
-    "source": "sibling: CS229 Summer 2019 L5 teaches both side by side, neither requires the other",
-    "verified": false
+    "source": "reversed: CS229 sec 2.2 derives the perceptron by modifying logistic regression",
+    "verified": true
   },
   {
     "from": "naive_bayes",
@@ -245,7 +245,7 @@
     "label": 0,
     "split": "dev",
     "source": "sibling: both generative classifiers (CS229 Summer 2019 L7)",
-    "verified": false
+    "verified": true
   },
   {
     "from": "gaussian_discriminant_analysis",
@@ -253,7 +253,7 @@
     "label": 0,
     "split": "dev",
     "source": "sibling: both generative classifiers (CS229 Summer 2019 L7)",
-    "verified": false
+    "verified": true
   },
   {
     "from": "normal_equations",
@@ -261,7 +261,7 @@
     "label": 0,
     "split": "test",
     "source": "sibling: alternative ways to solve least squares (CS229 Summer 2019 L4)",
-    "verified": false
+    "verified": true
   },
   {
     "from": "k_means_clustering",
@@ -269,7 +269,7 @@
     "label": 0,
     "split": "test",
     "source": "sibling: both unsupervised, no dependency (CS229 Summer 2019 L16, L18)",
-    "verified": false
+    "verified": true
   },
   {
     "from": "support_vector_machines",
@@ -277,7 +277,7 @@
     "label": 0,
     "split": "dev",
     "source": "unrelated: different model families",
-    "verified": false
+    "verified": true
   },
   {
     "from": "naive_bayes",
@@ -285,7 +285,7 @@
     "label": 0,
     "split": "test",
     "source": "unrelated: classification vs reinforcement learning",
-    "verified": false
+    "verified": true
   },
   {
     "from": "kernel_methods",
@@ -293,7 +293,7 @@
     "label": 0,
     "split": "test",
     "source": "unrelated: kernels vs reinforcement learning",
-    "verified": false
+    "verified": true
   },
   {
     "from": "probability",
@@ -301,7 +301,7 @@
     "label": 0,
     "split": "test",
     "source": "indirect: bayes_theorem sits between them",
-    "verified": false
+    "verified": true
   },
   {
     "from": "supervised_learning",
@@ -309,7 +309,7 @@
     "label": 0,
     "split": "dev",
     "source": "indirect: linear_regression sits between them",
-    "verified": false
+    "verified": true
   },
   {
     "from": "linear_algebra",
@@ -317,7 +317,7 @@
     "label": 0,
     "split": "dev",
     "source": "indirect: eigenvalues_and_eigenvectors sits between them",
-    "verified": false
+    "verified": true
   },
   {
     "from": "linear_regression",
@@ -325,6 +325,6 @@
     "label": 0,
     "split": "test",
     "source": "indirect: logistic_regression sits between them",
-    "verified": false
+    "verified": true
   }
 ]
